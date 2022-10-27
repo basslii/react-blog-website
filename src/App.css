@@ -1,0 +1,47 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  .services,
+  .products,
+  .sign-up {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+ 
+  .services {
+    background-image: url('./components/pages/images/malayagarden.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--coffee1);
+    font-size: 100px;
+  }
+  
+  .products {
+    background-image: url('./components/pages/images/Yas&Nas.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--coffee1);
+    font-size: 100px;
+  }
+  
+  .sign-up {
+    background-image: url('./components/pages/images/Heesan.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--coffee1);
+    font-size: 100px;
+  }
